@@ -92,6 +92,27 @@
 					<li><a href="{{ site.url }}/tags/">All Tags</a></li>
 				</ul>
 			</li>
+			<li>
+				<a href="#">The Club</a>
+				<ul class="dl-submenu">
+					<li><a href="{{ site.url }}/the-club/about">Club Info</a></li>
+					<li><a href="{{ site.url }}/the-club/what-we-offer">What We Offer</a></li>
+					<li><a href="{{ site.url }}/the-club/membership-and-costs">Membership & Costs</a></li>
+					<li><a href="{{ site.url }}/the-club/the-committee">Instructor Training</a></li>
+					<li><a href="{{ site.url }}/the-club/sponsors-and-affiliations">Sponsors and Affiliations</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Training</a>
+				<ul class="dl-submenu">
+					<li><a href="{{ site.url }}/training/about">Training Info</a></li>
+					<li><a href="{{ site.url }}/training/training-equipment">Required Equipment</a></li>
+					<li><a href="{{ site.url }}/training/diver-quals">Diver Qualifications</a></li>
+					<li><a href="{{ site.url }}/training/instructors">Instructor Training</a></li>
+					<li><a href="{{ site.url }}/training/skill-development-courses">Skill Development Courses</a></li>
+					<li><a href="{{ site.url }}/training/freediving">Freediving</a></li>
+				</ul>
+			</li>
 			{% for link in site.data.navigation %}
 		    {% if link.url contains 'http' %}
 		        {% assign domain = '' %}
